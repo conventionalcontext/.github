@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and support
+    url: https://github.com/conventionalcontext/.github/blob/main/SUPPORT.md
+    about: Where to ask, and what the maintainers support
+  - name: Report a security problem
+    url: https://github.com/conventionalcontext/.github/blob/main/SECURITY.md
+    about: Please report privately, not in a public issue

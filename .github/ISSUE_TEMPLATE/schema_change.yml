@@ -1,0 +1,23 @@
+name: Schema change proposal
+description: Change what the schema tells agents to do, or its templates
+labels: ["type: schema-change", "status: needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What goes wrong today, or what is missing? An example helps.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should the schema or templates say instead?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact on existing projects
+      description: Would projects already using the schema need to change anything?

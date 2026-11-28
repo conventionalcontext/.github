@@ -1,0 +1,23 @@
+name: Bug report
+description: Something is broken or incorrect
+labels: ["type: bug", "status: needs-triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where
+      description: File, page, or command, and the release or commit you used.
+    validations:
+      required: true
+  - type: textarea
+    id: agent
+    attributes:
+      label: Agent and tools
+      description: If an AI agent was involved, which one, and which OpenSpec version?
